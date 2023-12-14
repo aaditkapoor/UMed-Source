@@ -6,7 +6,7 @@ import numpy as np
 from ast import literal_eval
 
 # if using openai.api_key = os.environ["OPENAI_API_KEY"]
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="")
 
 def cosine_similarity(a, b):
     return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
