@@ -13,17 +13,17 @@ https://umeddemo.streamlit.app/
 
 Source Code
 ====================
-Retrieval Engine: retrieve.py and neighbors.py
-Knowledge Index Creation: embed.py
-Fine Tuning using LoRA: fine_tune.py
-Streamlit application: app.py
+- Retrieval Engine: retrieve.py and neighbors.py
+- Knowledge Index Creation: embed.py
+- Fine Tuning using LoRA: fine_tune.py
+- Streamlit application: app.py
 
 If using openai.api_key = os.environ["OPENAI_API_KEY"]
 otherwise add OPENAI_API_KEY to:
-retrieve.py
-neighbors.py
-app.py
-embed.py
+- retrieve.py
+- neighbors.py
+- app.py
+- embed.py
 
 
 References
