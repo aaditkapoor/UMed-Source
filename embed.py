@@ -2,7 +2,7 @@
 from openai import OpenAI
 import pandas as pd
 # if using openai.api_key = os.environ["OPENAI_API_KEY"]
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="")
 
 df = pd.read_csv("df_diet_practice_pubmed_summaries.txt.csv")
 def get_embedding(text, model="text-embedding-ada-002"):
