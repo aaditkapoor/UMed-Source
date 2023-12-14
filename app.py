@@ -49,7 +49,7 @@ st.sidebar.info("""
         Medical Report: Upload personalized medical report (if required)\n
         Medical Practice: Change "medicine practice" to desired consultation
         """)
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="")
 
 # Sidebar for file upload
 with st.sidebar:
